@@ -20,3 +20,6 @@ htpasswd { 'foo':
   passwordfile => '/etc/htpass'                               # Path to htpasswd file
 }
 ```
+
+This is not original module but it's forked
+    https://github.com/zombig/puppet-htpasswd

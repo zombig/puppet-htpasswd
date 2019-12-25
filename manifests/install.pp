@@ -1,5 +1,7 @@
-class htpasswd::install{
+class htpasswd::install(
+  String $version = 'installed'
+){
   package{ 'httpd-tools':
-    ensure => installed,
+    ensure => $version,
   }
 }
